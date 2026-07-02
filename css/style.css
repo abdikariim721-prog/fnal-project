@@ -378,9 +378,16 @@ margin-top: 50px;
 }
 
 /* Mobile View */
-@media screen and (max-width: 480px) {
-    .navbar ul {
+@media screen and (max-width: 768px) {
+    nav{
+        display: flex;
         flex-direction: column;
+        align-items:center;
+    }
+    .navbar ul {
+        display: flex;
+        flex-wrap:wrap;
+        justify-content:center;
         width: 100%;
     }
     .navbar ul{
