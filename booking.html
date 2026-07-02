@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Trip | Somali Safari</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo"><h2>Somali <span>Safari</span></h2></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="gallery.html">Destinations</a></li>
+                <li><a href="package.html">Packages</a></li>
+                <li><a href="booking.html" class="active">Book Now</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="faq.html">FAQ/Help</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="form-container">
+        <section class="booking-form-section">
+            <h1>Form-ka Boos Qabsashada Safarka</h1>
+            
+            <form action="#" method="POST" class="styled-form">
+                <fieldset>
+                    <legend>Macluumaadka Shaqsiga</legend>
+                    
+                    <label for="fullname">Magacaaga oo Buuxa:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Gali magacaaga..." required minlength="5">
+
+                    <label for="email">Email-kaaga:</label><br>
+                    <input type="email" id="email" name="email" placeholder="tusaale@gmail.com" required>
+
+                    <label for="password">Abuur Password astaan u ah akoonkaaga:</label><br>
+                    <input type="password" id="password" name="password" required minlength="6">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Macluumaadka Safarka</legend>
+
+                    <label for="destination">Dooro Meesha Aad Tegayso:</label><br>
+                    <select id="destination" name="destination" required>
+                        <option value="">--Fadlan dooro meel--</option>
+                        <option value="Liido">Xeebta Liido</option>
+                        <option value="Daallo">Buuraha Daallo</option>
+                        <option value="Turkey">Turkey</option>
+                        <option value="Dubai">Dubai</option>
+                        <option value="Nairobi">Nairobi</option>
+                    </select>
+
+                
+             <div class="radio-group">
+             <label for="">Nooca Safarka:</label><br><hr>
+                <input type="radio" name="Nooca Safarka" id="single">
+                <label for="single">Single(Keli)</label><br>
+                <input type="radio" name="Nooca Safarka" id="family">
+                <label for="family">Family(Qoys)</label><br>
+
+                        
+                    </div>
+
+                    <label>Adeegyada Dheeraadka ah ee aad u baahantahay:</label><br>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="hotel" name="addons" value="hotel">
+                        <label for="hotel">Boos huteel xul ah</label><br>
+                        
+                        <input type="checkbox" id="insurance" name="addons" value="insurance">
+                        <label for="insurance">Ceymiska Safarka (Travel Insurance)</label><br>
+                    </div>
+
+                    <label for="comments">Faallo ama Farriin Dheeraad ah:</label><br>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Haddii aad qabto baahiyo gaar ah halkan ku qor..."></textarea>
+                </fieldset>
+
+                <button type="submit" class="btn-submit">Gudbi Codsiga Safarka</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Somali Safari Toursm. All Rights Reserved. Designed for JUST Coursework.</p>
+    </footer>
+
+</body>
+</html>
