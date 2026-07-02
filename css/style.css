@@ -307,14 +307,17 @@ body {
 }
 
 .team-card {
-    flex: 1;
     background: #fff;
     padding: 1.5rem;
     border-top: 5px solid var(--secondary-color);
     box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     border-radius: 4px;
 }
-
+.team-card img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
 blockquote {
     font-style: italic;
     background: #e9ecef;
