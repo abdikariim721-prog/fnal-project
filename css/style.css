@@ -25,10 +25,6 @@ body {
     background-color: var(--light-color);
     line-height: 1.6;
 }
-nav a{
-    text-align:center;
-}
-
 .container {
     width: 90%;
     max-width: 1200px;
@@ -43,22 +39,21 @@ nav a{
     background-color: var(--dark-color);
     color: #ffffff;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 1rem 5%;
     position: sticky;
     top: 0;
-    z-index: 1000;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .logo h2 span {
     color: var(--secondary-color);
+    margin-right: 40px;
 }
 
 .navbar ul {
     list-style: none;
-    flex-wrap: wrap;
     display: flex;
 }
 
@@ -189,7 +184,6 @@ nav a{
     padding: 20px;
     text-align: center;
 }
-
 /* ==========================================================================
    5. DATA TABLE STYLING
    ========================================================================== */
@@ -387,10 +381,12 @@ margin-top: 50px;
         width: 100%;
     }
     .navbar ul{
+        display: flex;
         justify-content: center;
+        align-items: center;
     }
     .navbar ul li {
-        margin: 5px 0;
+        margin: 8px 0;
     }
     .image-grid {
         grid-template-columns: 1fr;
